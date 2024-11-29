@@ -1,0 +1,297 @@
+body{
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #035e89;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+li a{
+    color: black;
+}
+
+li a:hover{
+    color: #035e89;
+    transition: 0.7s;
+}
+
+.home{
+    color: #035e89;
+}
+
+.home:hover{
+    color: black;
+}
+
+.btn1{
+    background-color: #035e89;
+    border: 1px solid;
+    border-color: #81aec4;
+    width: 90px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    padding: 6px 15px;
+}
+
+.btn2{
+    background-color: white;
+    border: 1px solid;
+    border-color: #81aec4;
+    width: 90px;
+    height: 30px;
+    margin-left: 2px;
+    margin-right: 50px;
+    border-radius: 5px;
+    color: #035e89;
+    font-size: small;
+    padding: 6px 15px;
+}
+
+.btn1:hover{
+    background-color: white;
+    border-color: #81aec4;
+    color: #035e89;
+    transition: 0.4s;
+}
+
+.btn2:hover{
+    background-color: #035e89;
+    border-color: #81aec4;
+    color: white;
+    transition: 0.4s;
+}
+
+.btn2 a:hover{
+    color: white;
+}
+
+.image{
+    position: relative;
+}
+
+.image1{
+    width: 100%;
+    float: right;
+}
+
+.content_1{
+    position: absolute;
+}
+
+h1{
+    color: #035e89;
+    font-size: 60px;
+    margin-left: 100px;
+    /* margin-top: 400px; */
+}
+
+.headPara{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+
+.btn3{
+    background-color: #035e89;
+    border: 1px solid;
+    border-color: #81aec4;
+    width: 90px;
+    height: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    padding: 6px 15px;
+}
+
+.btn3:hover{
+    background-color: white;
+    transition: 0.4s;
+    color: #035e89;
+}
+
+.btn4{ 
+    background-color: white;
+    color: #035e89;
+    width: 120px;
+    height: 30px;
+    border: 1px solid;
+    border-color: #81aec4;
+    border-radius: 5px;
+    margin-left: -40px;
+    margin-right: 10px;
+    font-size: small;
+    padding: 6px 25px;
+}
+
+.btn4:hover{
+    background-color: #035e89;
+    border-color: #81aec4;
+    transition: 0.7s;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.service{
+    color: #035e89;
+}
+
+.servicePara{
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+.div1{
+    display: inline-block;
+    border: solid;
+    border-color: #b8e9ff;
+    border-radius: 15px;
+    margin-left: 210px;
+    height: 250px;
+    width: 270px;
+    text-align: left;
+}
+
+.div2{
+    display: inline-block;
+    border: solid;
+    border-color: #b8e9ff;
+    border-radius: 15px;
+    margin-left: 50px;
+    height: 250px;
+    width: 270px;
+    text-align: left;
+}
+
+.div3{
+    display: inline-block;
+    border: solid;
+    border-color: #b8e9ff;
+    border-radius: 15px;
+    margin-left: 50px;
+    height: 250px;
+    width: 270px;
+    text-align: left;
+}
+
+h3{
+    color: #035e89;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.divPara{
+    padding-left: 10px;
+    line-height: 25px;
+}
+
+.truck1Div{
+    height: 220px;
+    width: 700px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border: 1px ;
+    border-style: solid;
+    border-color: #b8e9ff;
+    border-radius: 15px;
+}
+
+h4{
+    float: left;
+    padding-left: 20px;
+}
+
+.truck1{
+    /* aspect-ratio: 2/2; */
+    width: 35%;
+    background: none;
+    float: right;
+}
+
+.truckPara{
+    float: left;
+    padding-left: 20px;
+    line-height: 1.7;
+    word-spacing: .1rem;
+    font-size: small;
+}
+
+.btn5{
+    float: right;
+    background-color: #035e89;
+    border: 1px solid;
+    border-color: #81aec4;
+    width: 100px;
+    height: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    padding: 6px 15px;
+}
+
+.btn5:hover{
+    background-color: white;
+    transition: 0.4s;
+    color: #035e89;
+}
+
+.number{
+    margin-left: 185px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+h5{
+    text-align: center;
+    font-size: 30px;
+    color: #035e89;
+}
+
+.numberPara{
+    text-align: center;
+    margin-top: -45px;
+    font-size: 11px;
+    font-weight: lighter;
+}
