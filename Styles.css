@@ -107,19 +107,21 @@ li a:hover{
 
 .content_1{
     position: absolute;
+
 }
 
 h1{
     color: #035e89;
-    font-size: 60px;
+    font-size: 50px;
+    margin-top: 110px;
     margin-left: 100px;
-    /* margin-top: 400px; */
 }
 
 .headPara{
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 21px;
+    line-height: 1.6;
     margin-left: 100px;
+    font-weight: bold;
 }
 
 .btn3{
@@ -165,6 +167,8 @@ h1{
 
 h2{
     text-align: center;
+    margin-top: 550px;
+    font-size: 30px;
 }
 
 .service{
@@ -190,6 +194,11 @@ h2{
     text-align: left;
 }
 
+.div1:hover{
+    border-color: #f2faff;
+    transition: 0.7s;
+}
+
 .div2{
     display: inline-block;
     border: solid;
@@ -201,6 +210,11 @@ h2{
     text-align: left;
 }
 
+.div2:hover{
+    border-color: #f2faff;
+    transition: 0.7s;
+}
+
 .div3{
     display: inline-block;
     border: solid;
@@ -210,6 +224,11 @@ h2{
     height: 250px;
     width: 270px;
     text-align: left;
+}
+
+.div3:hover{
+    border-color: #f2faff;
+    transition: 0.7s;
 }
 
 h3{
@@ -227,7 +246,7 @@ h3{
 
 .truck1Div{
     height: 220px;
-    width: 700px;
+    width: 800px;
     margin-left: 300px;
     margin-top: 50px;
     border: 1px ;
@@ -242,8 +261,7 @@ h4{
 }
 
 .truck1{
-    /* aspect-ratio: 2/2; */
-    width: 35%;
+    width: 39%;
     background: none;
     float: right;
 }
@@ -264,7 +282,7 @@ h4{
     width: 100px;
     height: 20px;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 20px;
     border-radius: 5px;
     color: white;
     font-size: small;
@@ -294,4 +312,158 @@ h5{
     margin-top: -45px;
     font-size: 11px;
     font-weight: lighter;
+}
+
+.truck2Div{
+    background-color: #f2faff;
+    height: 240px;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border: 1px ;
+    border-style: solid;
+    border-color: #b8e9ff;
+    border-radius: 15px;
+}
+
+.truck2{
+    margin-top: 50px;
+    width: 40%;
+    background: none;
+    border-radius: 15px;
+    float: right;
+}
+
+h6{
+    color: #035e89;
+    line-height: 1.3;
+    padding-bottom: 10px;
+    float: left;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.truckPara2{
+    float: left;
+    line-height: 1.5;
+    margin-top: -50px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: light;
+}
+
+.btn6{
+    float: left;
+    background-color: #035e89;
+    border: 1px solid;
+    border-color: #81aec4;
+    width: 100px;
+    height: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    padding: 6px 15px;
+    margin-top: 15px;
+    margin-left: -350px;
+}
+
+.btn6:hover{
+    background-color: white;
+    transition: 0.4s;
+    color: #035e89;
+}
+
+.footerDiv{
+    background-color: #035e89;
+    margin-top: 100px;
+    height: 300px;
+}
+
+.fDiv1{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 80%;
+    width: 250px;
+}
+
+.fDiv1 .head{
+    float: left;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fPara{
+    float: left;
+    color: white;
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 50px;
+    word-spacing: 2.2px;
+}
+
+.fParaDetail{
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 2.8;
+}
+
+.fDiv2{
+    float: right;
+    height: 80%;
+    width: 270px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.support{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.fDiv3{
+    float: right;
+    height: 80%;
+    width: 270px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.fDiv4{
+    float: right;
+    height: 80%;
+    width: 270px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+hr{
+    border-top: 1.5px solid white;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.logo1{
+    aspect-ratio: 2/2;
+    width: 3%;
+    background: none;
+    margin-left: 30px;
+}
+
+.copyrightDiv{
+    background-color: #035e89;
+}
+
+.copyright{
+    float: right;
+    color: white;
+    margin-right: 60px;
+    /* padding-bottom: 10px; */
+    /* font-size: small; */
 }
